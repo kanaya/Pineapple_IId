@@ -30517,9 +30517,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="X1" library="con-neutrik_ag" library_urn="urn:adsk.eagle:library:166" deviceset="NC3" device="MBH" package3d_urn="urn:adsk.eagle:package:8841/1"/>
 <part name="X2" library="con-neutrik_ag" library_urn="urn:adsk.eagle:library:166" deviceset="NC3" device="MBH" package3d_urn="urn:adsk.eagle:package:8841/1"/>
 <part name="IC3" library="maxim" library_urn="urn:adsk.eagle:library:269" deviceset="MAX34*" device="PA" package3d_urn="urn:adsk.eagle:package:29519/2" technology="68C"/>
-<part name="R700" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="120"/>
+<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="120"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
-<part name="JP03SELFTERMINATE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="/90" package3d_urn="urn:adsk.eagle:package:22437/2"/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="IC1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*06" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="RN4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="8R-N" device="" package3d_urn="urn:adsk.eagle:package:922/2"/>
@@ -30859,12 +30859,12 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <attribute name="NAME" x="167.64" y="77.47" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.64" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="R700" gate="G$1" x="226.06" y="66.04" smashed="yes">
+<instance part="R10" gate="G$1" x="226.06" y="66.04" smashed="yes">
 <attribute name="NAME" x="226.06" y="68.58" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="226.06" y="63.5" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY10" gate="GND" x="198.12" y="48.26" smashed="yes"/>
-<instance part="JP03SELFTERMINATE" gate="G$1" x="238.76" y="63.5" smashed="yes">
+<instance part="JP10" gate="G$1" x="238.76" y="63.5" smashed="yes">
 <attribute name="NAME" x="232.41" y="69.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="58.42" size="1.778" layer="96"/>
 </instance>
@@ -32114,7 +32114,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="205.74" y="60.96" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R700" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 <label x="218.44" y="66.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -32136,7 +32136,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="205.74" y="66.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP03SELFTERMINATE" gate="G$1" pin="2"/>
+<pinref part="JP10" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
 <label x="218.44" y="63.5" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -32153,8 +32153,8 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="JP03SELFTERMINATE" gate="G$1" pin="1"/>
-<pinref part="R700" gate="G$1" pin="2"/>
+<pinref part="JP10" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
