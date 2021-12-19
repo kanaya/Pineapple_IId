@@ -30522,7 +30522,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="/90" package3d_urn="urn:adsk.eagle:package:22437/2"/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="IC1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*06" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="RN4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="8R-N" device="" package3d_urn="urn:adsk.eagle:package:922/2"/>
+<part name="RN4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="8R-N" device="" package3d_urn="urn:adsk.eagle:package:922/2" value="220"/>
 <part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
 <part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="4.7k"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
@@ -32164,6 +32164,21 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="246.38" y1="149.86" x2="251.46" y2="149.86" width="0.1524" layer="91"/>
 <label x="251.46" y="149.86" size="0.8128" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="OK1" gate="A" pin="VO1"/>
+<wire x1="167.64" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
+<label x="147.32" y="119.38" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC1" gate="A" pin="I"/>
+<wire x1="149.86" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="101.6" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
+<junction x="149.86" y="119.38"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="132.08" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
+<label x="142.24" y="99.06" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="NMTRTN" class="0">
 <segment>
@@ -32233,23 +32248,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <pinref part="SV2" gate="A" pin="11"/>
 <wire x1="276.86" y1="63.5" x2="269.24" y2="63.5" width="0.1524" layer="91"/>
 <label x="269.24" y="63.5" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MI" class="0">
-<segment>
-<pinref part="OK1" gate="A" pin="VO1"/>
-<wire x1="167.64" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
-<label x="147.32" y="119.38" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC1" gate="A" pin="I"/>
-<wire x1="149.86" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="101.6" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
-<junction x="149.86" y="119.38"/>
-</segment>
-<segment>
-<pinref part="JP3" gate="A" pin="3"/>
-<wire x1="132.08" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
-<label x="142.24" y="99.06" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MISND" class="0">
@@ -32357,31 +32355,34 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,190.5,213.36,U1,VDD,VCC,,,"/>
+<approved hash="104,1,203.2,213.36,U1,VDD,VCC,,,"/>
 <approved hash="104,1,241.3,203.2,IC2P,VSS,GND,,,"/>
 <approved hash="104,1,241.3,218.44,IC2P,VDD,VCC,,,"/>
-<approved hash="106,1,205.74,25.4,MO2RTN,,,,,"/>
-<approved hash="106,1,205.74,30.48,MO2SND,,,,,"/>
-<approved hash="106,1,312.42,139.7,MRX+,,,,,"/>
-<approved hash="106,1,312.42,134.62,MRX-,,,,,"/>
-<approved hash="106,1,312.42,147.32,MRXDTCT,,,,,"/>
-<approved hash="106,1,312.42,127,MTX+,,,,,"/>
-<approved hash="106,1,312.42,119.38,MTX-,,,,,"/>
+<approved hash="106,1,190.5,17.78,MO2RTN,,,,,"/>
+<approved hash="106,1,190.5,22.86,MO2SND,,,,,"/>
+<approved hash="106,1,208.28,101.6,MTRTN,,,,,"/>
+<approved hash="106,1,208.28,106.68,MTSND,,,,,"/>
 <approved hash="106,1,342.9,144.78,VDD,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
-<approved hash="113,1,316.632,160.02,SV2,,,,,"/>
 <approved hash="113,1,368.3,109.22,X4,,,,,"/>
 <approved hash="113,1,36.428,124.46,SV1,,,,,"/>
 <approved hash="113,1,342.9,124.46,X9,,,,,"/>
 <approved hash="113,1,342.9,121.92,X10,,,,,"/>
 <approved hash="113,1,40.64,142.24,X14,,,,,"/>
-<approved hash="113,1,205.74,17.78,X5,,,,,"/>
-<approved hash="113,1,195.58,17.78,X8,,,,,"/>
 <approved hash="113,1,76.2,240.421,V+,,,,,"/>
 <approved hash="113,1,93.98,240.421,VIN,,,,,"/>
 <approved hash="113,1,33.6127,199.73,J0,,,,,"/>
-<approved hash="113,1,316.632,246.38,SV3,,,,,"/>
 <approved hash="113,1,70.4427,21.6577,J6,,,,,"/>
+<approved hash="113,1,236.457,66.2661,JP10,,,,,"/>
+<approved hash="113,1,131.843,95.0239,JP3,,,,,"/>
+<approved hash="113,1,137.16,103.261,RX,,,,,"/>
+<approved hash="113,1,139.7,103.261,DMXRX,,,,,"/>
+<approved hash="113,1,280.628,66.2661,SV2,,,,,"/>
+<approved hash="113,1,326.348,202.156,SV3,,,,,"/>
+<approved hash="113,1,73.66,242.961,V/2,,,,,"/>
+<approved hash="113,1,96.52,242.961,VO,,,,,"/>
+<approved hash="113,1,106.68,215.021,A,,,,,"/>
+<approved hash="113,1,109.22,215.021,B,,,,,"/>
 </errors>
 </schematic>
 </drawing>
