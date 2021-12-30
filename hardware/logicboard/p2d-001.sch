@@ -31426,14 +31426,14 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="236.22" y="139.7" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="A" pin="14"/>
-<wire x1="330.2" y1="193.04" x2="337.82" y2="193.04" width="0.1524" layer="91"/>
-<label x="337.82" y="193.04" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J10" gate="J$1" pin="2"/>
 <wire x1="33.02" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
 <label x="35.56" y="48.26" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV3" gate="A" pin="6"/>
+<wire x1="330.2" y1="203.2" x2="337.82" y2="203.2" width="0.1524" layer="91"/>
+<label x="337.82" y="203.2" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ANLG3" class="3">
@@ -31554,9 +31554,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="127" y="40.64" size="0.8128" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="A" pin="3"/>
-<wire x1="322.58" y1="205.74" x2="314.96" y2="205.74" width="0.1524" layer="91"/>
-<label x="314.96" y="205.74" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="SV3" gate="A" pin="1"/>
+<wire x1="322.58" y1="208.28" x2="314.96" y2="208.28" width="0.1524" layer="91"/>
+<label x="314.96" y="208.28" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -31575,9 +31575,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <junction x="137.16" y="96.52"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="A" pin="1"/>
-<wire x1="322.58" y1="208.28" x2="314.96" y2="208.28" width="0.1524" layer="91"/>
-<label x="314.96" y="208.28" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="SV3" gate="A" pin="3"/>
+<wire x1="322.58" y1="205.74" x2="314.96" y2="205.74" width="0.1524" layer="91"/>
+<label x="314.96" y="205.74" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -31658,9 +31658,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="43.18" y="121.92" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="A" pin="6"/>
-<wire x1="330.2" y1="203.2" x2="337.82" y2="203.2" width="0.1524" layer="91"/>
-<label x="337.82" y="203.2" size="0.8128" layer="95" xref="yes"/>
+<pinref part="SV3" gate="A" pin="8"/>
+<wire x1="330.2" y1="200.66" x2="337.82" y2="200.66" width="0.1524" layer="91"/>
+<label x="337.82" y="200.66" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DTCT1" class="0">
@@ -31675,9 +31675,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="43.18" y="109.22" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="A" pin="8"/>
-<wire x1="330.2" y1="200.66" x2="337.82" y2="200.66" width="0.1524" layer="91"/>
-<label x="337.82" y="200.66" size="0.8128" layer="95" xref="yes"/>
+<pinref part="SV3" gate="A" pin="10"/>
+<wire x1="330.2" y1="198.12" x2="337.82" y2="198.12" width="0.1524" layer="91"/>
+<label x="337.82" y="198.12" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DTCT2" class="0">
@@ -31692,9 +31692,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="43.18" y="96.52" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="A" pin="10"/>
-<wire x1="330.2" y1="198.12" x2="337.82" y2="198.12" width="0.1524" layer="91"/>
-<label x="337.82" y="198.12" size="0.8128" layer="95" xref="yes"/>
+<pinref part="SV3" gate="A" pin="12"/>
+<wire x1="330.2" y1="195.58" x2="337.82" y2="195.58" width="0.1524" layer="91"/>
+<label x="337.82" y="195.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DTCT3" class="0">
@@ -31709,9 +31709,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="43.18" y="83.82" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="A" pin="12"/>
-<wire x1="330.2" y1="195.58" x2="337.82" y2="195.58" width="0.1524" layer="91"/>
-<label x="337.82" y="195.58" size="0.8128" layer="95" xref="yes"/>
+<pinref part="SV3" gate="A" pin="14"/>
+<wire x1="330.2" y1="193.04" x2="337.82" y2="193.04" width="0.1524" layer="91"/>
+<label x="337.82" y="193.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LED0" class="0">
