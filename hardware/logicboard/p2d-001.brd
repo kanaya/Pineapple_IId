@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -351,7 +351,7 @@ PF13-4-9</text>
 <text x="76" y="30.5" size="1" layer="25" align="center">00</text>
 <text x="66" y="28.27" size="1" layer="25" align="center">2</text>
 <text x="66" y="25.73" size="1" layer="25" align="center">1</text>
-<text x="73.46" y="23.5" size="1" layer="25" align="center">G</text>
+<text x="73.46" y="23.5" size="1" layer="25" align="center">G*</text>
 <text x="70.92" y="23.5" size="1" layer="25" align="center">RX</text>
 <text x="68.38" y="23.5" size="1" layer="25" align="center">TX</text>
 <text x="78.54" y="23.5" size="1" layer="25" align="center">SC</text>
@@ -389,6 +389,11 @@ PF13-4-9</text>
 <text x="8.5" y="66" size="1.27" layer="25" align="center">T</text>
 <text x="6.5" y="66" size="1.27" layer="25" align="center">G</text>
 <text x="10.5" y="66" size="1.27" layer="25" align="center">V</text>
+<rectangle x1="28.12" y1="11.635" x2="33.2" y2="12.905" layer="21"/>
+<rectangle x1="69.65" y1="25.095" x2="74.73" y2="26.365" layer="21"/>
+<text x="76.04" y="8.5" size="1" layer="25" align="center">*Close RX and G when OUT-ONLY</text>
+<text x="50" y="17" size="1" layer="25" align="center">(IN/OUT)</text>
+<text x="76" y="17" size="1" layer="25" align="center">(THRU)</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
