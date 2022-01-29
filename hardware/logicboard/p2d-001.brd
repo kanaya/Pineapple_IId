@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -413,6 +413,31 @@ PF13-4-9</text>
 <text x="82" y="19" size="1" layer="25" align="center">1</text>
 <text x="82" y="17" size="1" layer="25" align="center">2</text>
 <text x="82" y="15" size="1" layer="25" align="center">3</text>
+<text x="13" y="29" size="1" layer="25" align="center">THS*</text>
+<text x="52.54" y="22.5" size="1" layer="25" align="center">*</text>
+<wire x1="74" y1="53.5" x2="74" y2="54" width="0.15" layer="21"/>
+<wire x1="74" y1="58.5" x2="74" y2="58" width="0.15" layer="21"/>
+<wire x1="76.54" y1="58.5" x2="76.54" y2="58" width="0.15" layer="21"/>
+<wire x1="79.08" y1="58.5" x2="79.08" y2="58" width="0.15" layer="21"/>
+<wire x1="81.62" y1="58.5" x2="81.62" y2="58" width="0.15" layer="21"/>
+<wire x1="71.46" y1="53.5" x2="71.46" y2="54" width="0.15" layer="21"/>
+<wire x1="68.92" y1="53.5" x2="68.92" y2="54" width="0.15" layer="21"/>
+<wire x1="66.38" y1="53.5" x2="66.38" y2="54" width="0.15" layer="21"/>
+<wire x1="74" y1="54" x2="71.46" y2="54" width="0.15" layer="21" curve="180"/>
+<wire x1="68.92" y1="54" x2="66.38" y2="54" width="0.15" layer="21" curve="180"/>
+<wire x1="74" y1="58" x2="76.54" y2="58" width="0.15" layer="21" curve="180"/>
+<wire x1="79.08" y1="58" x2="81.62" y2="58" width="0.15" layer="21" curve="180"/>
+<text x="74" y="55.5" size="1" layer="25" align="center">1</text>
+<text x="74" y="57" size="1" layer="25" align="center">3</text>
+<text x="81.62" y="57" size="1" layer="25" align="center">2</text>
+<text x="66.38" y="55.5" size="1" layer="25" align="center">0</text>
+<text x="64" y="58.54" size="1" layer="25" align="center">0</text>
+<text x="64" y="50.92" size="1" layer="25" align="center">3</text>
+<text x="62" y="49" size="1" layer="25" align="center">103</text>
+<text x="62" y="42" size="1" layer="25" rot="R90" align="center">IN</text>
+<text x="76" y="42" size="1" layer="25" rot="R90" align="center">RX/TX</text>
+<text x="35.5" y="55" size="1" layer="25" align="center">OUT</text>
+<text x="35.5" y="40" size="1" layer="25" align="center">7406</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
