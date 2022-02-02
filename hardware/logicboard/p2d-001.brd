@@ -34,9 +34,9 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -158,8 +158,8 @@
 <wire x1="4" y1="10" x2="4" y2="1" width="0" layer="20"/>
 <wire x1="4" y1="1" x2="5" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="5" y1="0" x2="95" y2="0" width="0" layer="20"/>
-<wire x1="95" y1="0" x2="96" y2="1.5" width="0" layer="20" curve="90"/>
-<wire x1="96" y1="1.5" x2="96" y2="10" width="0" layer="20"/>
+<wire x1="95" y1="0" x2="96" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="96" y1="1" x2="96" y2="10" width="0" layer="20"/>
 <wire x1="97.5" y1="11.5" x2="99" y2="11.5" width="0" layer="20"/>
 <wire x1="99" y1="11.5" x2="100" y2="12.5" width="0" layer="20" curve="90"/>
 <wire x1="100" y1="12.5" x2="100" y2="62.5" width="0" layer="20"/>
