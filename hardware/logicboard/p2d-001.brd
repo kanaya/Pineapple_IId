@@ -8,15 +8,15 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -445,8 +445,8 @@ when OUT-ONLY</text>
 <text x="81.62" y="56.5" size="1" layer="25" align="center">2</text>
 <text x="68.92" y="55.5" size="1" layer="25" align="center">0</text>
 <text x="93.5" y="55.5" size="1" layer="25" align="center">221</text>
-<text x="83.5" y="49.5" size="1" layer="25" align="center">L1</text>
-<text x="75.5" y="49.5" size="1" layer="25" align="center">L0</text>
+<text x="83.5" y="49.5" size="1" layer="25" align="center">102</text>
+<text x="75.5" y="49.5" size="1" layer="25" align="center">102</text>
 <text x="67.5" y="49.5" size="1" layer="25" align="center">102</text>
 <text x="35.5" y="34" size="1" layer="25" align="center">102</text>
 <text x="35.5" y="37" size="1" layer="25" align="center">473</text>
