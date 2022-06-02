@@ -176,7 +176,7 @@
 <circle x="93.5" y="61" radius="2" width="0.2" layer="41"/>
 <circle x="6.5" y="14" radius="2" width="0.2" layer="41"/>
 <circle x="93.5" y="14" radius="2" width="0.2" layer="41"/>
-<text x="20.5" y="2" size="1.27" layer="25" align="center">Pineapple IId 0.0.2-B</text>
+<text x="20.5" y="2" size="1.27" layer="25" align="center">Pineapple IId 0.0.3-B</text>
 <wire x1="10" y1="44.95" x2="29.05" y2="44.95" width="0.15" layer="21" style="dashdot"/>
 <wire x1="29.05" y1="44.95" x2="29.05" y2="64" width="0.15" layer="21" style="dashdot"/>
 <wire x1="29.05" y1="64" x2="10" y2="64" width="0.15" layer="21" style="dashdot"/>
