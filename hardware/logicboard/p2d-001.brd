@@ -302,7 +302,7 @@ PF13-4-9</text>
 <text x="18.46" y="72" size="1" layer="25" align="center-right" grouprefs="PWRSEL">Vin</text>
 <text x="18.46" y="65" size="1" layer="25" align="center-right" grouprefs="PWRSEL">V+</text>
 <text x="91" y="23" size="1" layer="25" rot="R90" align="center">MKR</text>
-<text x="9" y="42" size="1" layer="25" rot="R90" align="center">Vcc</text>
+<text x="8.5" y="43" size="1" layer="25" rot="R90" align="center">Vcc</text>
 <text x="3" y="30" size="1" layer="25" align="center">GPIO</text>
 <text x="50" y="73" size="1" layer="25" align="center">USB</text>
 <text x="41" y="25" size="1" layer="25" align="center">MC1</text>
@@ -350,7 +350,7 @@ PF13-4-9</text>
 <text x="76" y="30.5" size="1" layer="25" align="center">00</text>
 <text x="66" y="28.27" size="1" layer="25" align="center">2</text>
 <text x="66" y="25.73" size="1" layer="25" align="center">1</text>
-<text x="73.46" y="23.5" size="1" layer="25" align="center">G*</text>
+<text x="73.46" y="23.5" size="1" layer="25" align="center">G</text>
 <text x="70.92" y="23.5" size="1" layer="25" align="center">RX</text>
 <text x="68.38" y="23.5" size="1" layer="25" align="center">TX</text>
 <text x="78.54" y="23.5" size="1" layer="25" align="center">SC</text>
@@ -383,14 +383,13 @@ PF13-4-9</text>
 <vertex x="76" y="32.5"/>
 </polygon>
 <text x="91" y="33" size="1" layer="25" rot="R90" align="center">LED</text>
-<text x="9" y="35" size="1" layer="25" rot="R90" align="center">GPIO</text>
-<text x="10" y="66" size="1.27" layer="25" align="center">T</text>
+<text x="10" y="66" size="1.27" layer="25" align="center">T*</text>
 <text x="8" y="66" size="1.27" layer="25" align="center">G</text>
 <text x="12" y="66" size="1.27" layer="25" align="center">V</text>
 <rectangle x1="28.12" y1="11.635" x2="33.2" y2="12.905" layer="21"/>
 <rectangle x1="69.65" y1="25.095" x2="74.73" y2="26.365" layer="21"/>
-<text x="76.04" y="21" size="1" layer="25" align="center">*Close RX and G
-when OUT-ONLY</text>
+<text x="76.04" y="21" size="1" layer="25" align="center">Note: Close RX and G
+when RX is not used.</text>
 <text x="50" y="17" size="1" layer="25" align="center">(IN/OUT)</text>
 <text x="50" y="8" size="1" layer="26" rot="MR0" align="center">Do not install R301 or R302</text>
 <circle x="46.2" y="11.1" radius="1.5" width="0.2" layer="41"/>
@@ -478,6 +477,26 @@ C9-10: 100n</text>
 <text x="98.5" y="31" size="1" layer="25" rot="R90" align="top-center">0</text>
 <text x="98.5" y="35" size="1" layer="25" rot="R90" align="top-center">1</text>
 <rectangle x1="98.5" y1="32" x2="99" y2="34" layer="21"/>
+<text x="18" y="40" size="1" layer="25" rot="R90" align="center">G5V-1</text>
+<text x="65" y="5" size="1" layer="25" rot="R90" align="center-left">(Connected to JP7)</text>
+<text x="95.5" y="27" size="1" layer="25" align="center-left">GND</text>
+<text x="89.5" y="16" size="1" layer="25" rot="R90" align="center">C</text>
+<text x="89.5" y="14" size="1" layer="25" rot="R90" align="center">O</text>
+<text x="89.5" y="12" size="1" layer="25" rot="R90" align="center">I</text>
+<text x="89.5" y="18" size="1" layer="25" rot="R90" align="center">V</text>
+<text x="89.5" y="20" size="1" layer="25" rot="R90" align="center">G</text>
+<text x="95.5" y="25" size="1" layer="25" align="center-left">SDA</text>
+<text x="95.5" y="23" size="1" layer="25" align="center-left">SCL</text>
+<text x="95.5" y="21" size="1" layer="25" align="center-left">D7</text>
+<text x="95.5" y="19" size="1" layer="25" align="center-left">Vcc</text>
+<text x="15" y="69" size="1.27" layer="25" rot="R90" align="center">THS*</text>
+<text x="1" y="37" size="1" layer="25" align="center-left">G1</text>
+<text x="1" y="35" size="1" layer="25" align="center-left">G0</text>
+<text x="1" y="33" size="1" layer="25" align="center-left">GND</text>
+<text x="1" y="41" size="1" layer="25" align="center-left">GND</text>
+<text x="1" y="43" size="1" layer="25" align="center-left">Vcc</text>
+<rectangle x1="8.5" y1="40" x2="9" y2="42" layer="21"/>
+<rectangle x1="8.5" y1="32" x2="9" y2="34" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
