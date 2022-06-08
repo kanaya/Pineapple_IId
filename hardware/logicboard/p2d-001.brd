@@ -337,7 +337,7 @@ PF13-4-9</text>
 <text x="16.69" y="14" size="1" layer="25" rot="R90" align="center-left">OUT4</text>
 <text x="14.15" y="14" size="1" layer="25" rot="R90" align="center-left">GND</text>
 <text x="11.61" y="14" size="1" layer="25" rot="R90" align="center-left">OUT5</text>
-<text x="9.07" y="14" size="1" layer="25" rot="R90" align="center-left">Vcc</text>
+<text x="9.07" y="14" size="1" layer="25" rot="R90" align="center-left">(Vcc)</text>
 <wire x1="64.5" y1="31.5" x2="63" y2="31.5" width="0.15" layer="21"/>
 <wire x1="63" y1="31.5" x2="63" y2="30" width="0.15" layer="21"/>
 <wire x1="63" y1="24" x2="63" y2="22.5" width="0.15" layer="21"/>
@@ -462,11 +462,16 @@ C9-10: 100n</text>
 <text x="17.96" y="3.5" size="1" layer="25" align="center">5</text>
 <text x="65" y="3.5" size="1" layer="25" align="center">MIDI</text>
 <text x="91.5" y="8" size="1" layer="25" align="center">101</text>
-<text x="25" y="6" size="1" layer="25" rot="R90" align="center">MIDI</text>
+<text x="15" y="3.5" size="1" layer="25" align="center">MIDI</text>
 <circle x="12.54" y="61.46" radius="2.6" width="0.15" layer="41"/>
 <circle x="26.51" y="47.49" radius="2.6" width="0.15" layer="41"/>
 <circle x="26.51" y="47.49" radius="2.6" width="0.15" layer="42"/>
 <circle x="12.54" y="61.46" radius="2.6" width="0.15" layer="42"/>
+<text x="64" y="42" size="1" layer="25" rot="R90" align="center">2630</text>
+<text x="78" y="42" size="1" layer="25" rot="R90" align="center">1485</text>
+<text x="82" y="42" size="1" layer="25" rot="R90" align="center">3468</text>
+<text x="80" y="42" size="1" layer="25" rot="R90" align="center">OR</text>
+<text x="25" y="6" size="1" layer="25" align="center-left">(Connected to J7)</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
