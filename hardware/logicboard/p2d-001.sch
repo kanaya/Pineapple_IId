@@ -35811,7 +35811,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <pinref part="R302" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="DATA+R" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="1"/>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -35879,7 +35879,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="154.94" y="17.78" size="0.8128" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="1">
+<net name="MISNDA" class="1">
 <segment>
 <pinref part="OK1" gate="A" pin="A1"/>
 <wire x1="172.72" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
@@ -35961,7 +35961,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="195.58" y="33.02" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="MTRTNR" class="0">
 <segment>
 <pinref part="RN4" gate="F" pin="1"/>
 <pinref part="IC1" gate="D" pin="O"/>
@@ -35982,7 +35982,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="190.5" y="111.76" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="MORTNR" class="0">
 <segment>
 <pinref part="RN4" gate="D" pin="1"/>
 <pinref part="IC1" gate="E" pin="O"/>
@@ -35996,7 +35996,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="195.58" y="20.32" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="MO2RTNR" class="0">
 <segment>
 <pinref part="RN4" gate="H" pin="1"/>
 <pinref part="IC1" gate="F" pin="O"/>
