@@ -34109,7 +34109,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="R301" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="22k"/>
 <part name="R302" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="22k"/>
 <part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
-<part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="MIDICONNECT"/>
 </parts>
 <sheets>
 <sheet>
@@ -36055,13 +36055,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <approved hash="113,1,322.58,91.44,X9,,,,,"/>
 <approved hash="113,1,322.58,88.9,X10,,,,,"/>
 <approved hash="113,1,40.64,142.24,X14,,,,,"/>
-<approved hash="113,1,73.66,248.041,V+,,,,,"/>
-<approved hash="113,1,96.52,248.041,VIN,,,,,"/>
 <approved hash="113,1,33.6127,199.73,J0,,,,,"/>
 <approved hash="113,1,93.98,42.3012,RX,,,,,"/>
 <approved hash="113,1,101.6,42.3012,DMXRX,,,,,"/>
-<approved hash="113,1,68.58,248.041,V/2,,,,,"/>
-<approved hash="113,1,101.6,248.041,VO,,,,,"/>
 <approved hash="113,1,106.68,215.021,A,,,,,"/>
 <approved hash="113,1,109.22,215.021,B,,,,,"/>
 </errors>
