@@ -34109,7 +34109,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="R301" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="22k"/>
 <part name="R302" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="22k"/>
 <part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
-<part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="MIDICONNECT"/>
 </parts>
 <sheets>
 <sheet>
@@ -35811,7 +35811,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <pinref part="R302" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="DATA+R" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="1"/>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -35879,7 +35879,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="154.94" y="17.78" size="0.8128" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="1">
+<net name="MISNDA" class="1">
 <segment>
 <pinref part="OK1" gate="A" pin="A1"/>
 <wire x1="172.72" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
@@ -35961,7 +35961,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="195.58" y="33.02" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="MTRTNR" class="0">
 <segment>
 <pinref part="RN4" gate="F" pin="1"/>
 <pinref part="IC1" gate="D" pin="O"/>
@@ -35982,7 +35982,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="190.5" y="111.76" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="MORTNR" class="0">
 <segment>
 <pinref part="RN4" gate="D" pin="1"/>
 <pinref part="IC1" gate="E" pin="O"/>
@@ -35996,7 +35996,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="195.58" y="20.32" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="MO2RTNR" class="0">
 <segment>
 <pinref part="RN4" gate="H" pin="1"/>
 <pinref part="IC1" gate="F" pin="O"/>
@@ -36055,13 +36055,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <approved hash="113,1,322.58,91.44,X9,,,,,"/>
 <approved hash="113,1,322.58,88.9,X10,,,,,"/>
 <approved hash="113,1,40.64,142.24,X14,,,,,"/>
-<approved hash="113,1,73.66,248.041,V+,,,,,"/>
-<approved hash="113,1,96.52,248.041,VIN,,,,,"/>
 <approved hash="113,1,33.6127,199.73,J0,,,,,"/>
 <approved hash="113,1,93.98,42.3012,RX,,,,,"/>
 <approved hash="113,1,101.6,42.3012,DMXRX,,,,,"/>
-<approved hash="113,1,68.58,248.041,V/2,,,,,"/>
-<approved hash="113,1,101.6,248.041,VO,,,,,"/>
 <approved hash="113,1,106.68,215.021,A,,,,,"/>
 <approved hash="113,1,109.22,215.021,B,,,,,"/>
 </errors>
