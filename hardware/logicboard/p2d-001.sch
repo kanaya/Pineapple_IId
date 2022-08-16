@@ -37392,11 +37392,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="325.12" y="50.8" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J10" gate="J$1" pin="1"/>
-<wire x1="96.52" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
-<label x="99.06" y="63.5" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 <wire x1="299.72" y1="205.74" x2="299.72" y2="200.66" width="0.1524" layer="91"/>
@@ -37410,6 +37405,11 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="71.12" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <label x="73.66" y="22.86" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<pinref part="J10" gate="J$1" pin="1"/>
+<wire x1="96.52" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
+<label x="99.06" y="63.5" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -37514,11 +37514,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="325.12" y="40.64" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J10" gate="J$1" pin="3"/>
-<wire x1="96.52" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
-<label x="99.06" y="68.58" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SUPPLY15" gate="G$1" pin="VCC"/>
 <wire x1="149.86" y1="243.84" x2="149.86" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="K1" gate="1" pin="1"/>
@@ -37559,6 +37554,11 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="71.12" y1="12.7" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
 <label x="73.66" y="12.7" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J10" gate="J$1" pin="3"/>
+<wire x1="96.52" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
+<label x="99.06" y="68.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RLYSNK" class="0">
@@ -37623,14 +37623,14 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <label x="264.16" y="83.82" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J10" gate="J$1" pin="2"/>
-<wire x1="96.52" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-<label x="99.06" y="66.04" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SV3" gate="A" pin="6"/>
 <wire x1="340.36" y1="50.8" x2="347.98" y2="50.8" width="0.1524" layer="91"/>
 <label x="347.98" y="50.8" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J10" gate="J$1" pin="2"/>
+<wire x1="96.52" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+<label x="99.06" y="66.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ANLG3" class="3">
