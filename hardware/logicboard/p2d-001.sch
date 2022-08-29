@@ -35414,6 +35414,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38101/1" value="GPIO"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-NS" package3d_urn="urn:adsk.eagle:package:38084/1" value="RLY"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38131/1" value="SPI"/>
+<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -35924,6 +35925,10 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <attribute name="VALUE" x="60.96" y="5.334" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="60.96" y="25.908" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="JP5" gate="A" x="325.12" y="147.32" smashed="yes">
+<attribute name="NAME" x="318.77" y="153.035" size="1.778" layer="95"/>
+<attribute name="VALUE" x="318.77" y="139.7" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="ANLG[0..3]">
@@ -36155,6 +36160,11 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="43.18" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 <label x="45.72" y="43.18" size="0.8128" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP5" gate="A" pin="1"/>
+<wire x1="322.58" y1="149.86" x2="312.42" y2="149.86" width="0.1524" layer="91"/>
+<label x="312.42" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="VCC" class="2">
 <segment>
@@ -36297,6 +36307,11 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="43.18" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 <label x="45.72" y="45.72" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="2"/>
+<wire x1="322.58" y1="147.32" x2="312.42" y2="147.32" width="0.1524" layer="91"/>
+<label x="312.42" y="147.32" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RLYSNK" class="0">
@@ -36961,6 +36976,11 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="45.72" y1="236.22" x2="45.72" y2="200.66" width="0.1524" layer="91"/>
 <junction x="45.72" y="236.22"/>
 <wire x1="33.02" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="3"/>
+<wire x1="322.58" y1="144.78" x2="312.42" y2="144.78" width="0.1524" layer="91"/>
+<label x="312.42" y="144.78" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED0A" class="0">
